@@ -1,0 +1,133 @@
+body {
+  background-color: #000; 
+  font-family: 'Arial', sans-serif;
+  color: #fff; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #333; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: #444; 
+  color: #fff; 
+  border: none;
+}
+
+.form-control::placeholder {
+  color: #bbb; 
+}
+
+.btn-primary {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 15px 20px;
+  border: 1px solid #444; 
+  background-color: #222; 
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.list-group-item input[type="text"],
+.list-group-item textarea {
+  border: none;
+  background-color: #333; 
+  color: #fff; 
+  box-shadow: none;
+  width: 100%;
+  resize: none;
+}
+
+.list-group-item input[type="text"]:focus,
+.list-group-item textarea:focus {
+  outline: none;
+  background-color: #444;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.task-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.task-description {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #bbb; 
+}
+
+.btn-secondary, .btn-danger {
+  border-radius: 10px;
+  padding: 5px 15px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  color: #fff; 
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #fff; }
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.input-group .form-control:focus {
+  box-shadow: none;
+}
+
+.input-group .btn {
+  margin-left: 10px;
+}
+
+.alert {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
